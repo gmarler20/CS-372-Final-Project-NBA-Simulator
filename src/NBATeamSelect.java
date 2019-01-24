@@ -120,8 +120,8 @@ public class NBATeamSelect extends NBATeam implements GenStats{
         Random Mrnd = new Random();
         Random Arnd = new Random();
 
-        double Mrange = 5;
-        double Arange = 5;
+        double Mrange = 1;
+        double Arange = 1;
 
         double mMax = avgMakes + Mrange;
         double mMin = avgMakes - Mrange;
